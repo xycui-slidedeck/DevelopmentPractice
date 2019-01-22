@@ -1,0 +1,97 @@
+export { swiss as theme } from 'mdx-deck/themes'
+
+## Methodology & Practice in (.NET) Development.
+Xianyi Cui
+
+```notes
+1. Maybe Guideline is a better name. But the scope is too large. 
+2. Some tips to avoid issue. Some tools & concept to introduce. Will not covered if xiaoice is not using. Will not envolve design patterns.
+3. From a different perspective to introduce
+```
+
+---
+
+## Content
+#### Part 1: Before coding    
+#### Part 2: Working on project     
+#### Part 3: Other thinking
+#### Summary
+
+```notes
+Part 1. Ignored in large project. Because they already finished these parts.
+Part 2. Dealing with actual project
+Part 3. Some other thinkings
+```
+---
+
+## Part 1: Before coding
+
+---
+## Repository Structure
+<br/>
+
+|Category|Samples|Usage|
+|----|------|-----|
+|Source Code|/src|contain the source codes or tests|
+|Documents|/docs<br/>\*.rst; \*.md|docs folder or markdown/reStructuredText for documents|
+|Other functional files|git config files<br/>CI\* config files(appveyor,travis,circle)<br/>package dependency(package.json,requirement.txt)<br/>...|For extended requirements & advanced features|
+|Scripts|init<br/>build<br/>|including some script for us to execute for environment preparing. Save time from duplicate typing|     
+
+- All of them required?
+- Why not put source code out side?
+
+```notes
+1. Not all required. Former more important.
+2. Control the growth of code
+
+```
+
+---
+## Repository Sample
+![Newtonjson](.\images\structure_newtonjson_note.png "Newtonjson") ![NetStandard](.\images\structure_netstandard.png "NetStandard")     
+###### - NewtonJson: https://github.com/JamesNK/Newtonsoft.Json<br/>- Pyinstaller: https://github.com/pyinstaller/pyinstaller<br/>- NetCore(multiple Readme): https://github.com/dotnet/core
+---
+
+## Projects
+1. 
+
+---
+
+## Clean Environment
+
+
+---
+
+## Part 2: Working on project
+
+---
+
+## Part 3: Other thinking
+
+---
+
+## IDE vs CLI    
+<br/>   
+
+|Tools|Pros|Cons|
+|------|---|---|
+|**IDE**|1. Easy to use<br/>2. Clear with UI <br/>3. Plugins |1. Ignore a lot of details<br/>2. Unstable|
+|**CLI**|1. Make users understand the details<br/>2. Developer friendly |1. Not intuitive <br/>2. Cost time to learn|
+
+###### \*IDE: *I*ntegrated *D*evelopment *E*nvironment<br/>\*CLI: *C*ommand *L*ine *I*nterface
+
+```notes
+IDE: UI with mouse to provide a lot of easy access. Detail is ignored so the folder project structure is ignored.
+CLI: Key board access could be much more easier than click the mouse/switch between
+```
+
+---
+## NET Core vs NET Framework
+
+---
+
+## Summary
+Use more vs when searching
+
+---
+

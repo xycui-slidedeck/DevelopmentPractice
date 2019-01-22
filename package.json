@@ -1,0 +1,25 @@
+{
+  "name": "developmentpractice",
+  "version": "1.0.0",
+  "description": "slide for Development practice",
+  "main": "index.js",
+  "dependencies": {
+    "mdx-deck": "^1.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xycui-slidedeck/DevelopmentPractice.git"
+  },
+  "author": "Xianyi Cui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xycui-slidedeck/DevelopmentPractice/issues"
+  },
+  "homepage": "https://github.com/xycui-slidedeck/DevelopmentPractice#readme"
+}
