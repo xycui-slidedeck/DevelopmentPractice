@@ -27,7 +27,8 @@ Part 3. Some other thinkings
 ## Part 1: Before coding
 
 ---
-## Repository Structure
+## *Code* Repository
+### What is the structure? 
 <br/>
 
 |Category|Samples|Usage|
@@ -50,15 +51,58 @@ Part 3. Some other thinkings
 ## Repository Sample
 ![Newtonjson](.\images\structure_newtonjson_note.png "Newtonjson") ![NetStandard](.\images\structure_netstandard.png "NetStandard")     
 ###### - NewtonJson: https://github.com/JamesNK/Newtonsoft.Json<br/>- Pyinstaller: https://github.com/pyinstaller/pyinstaller<br/>- NetCore(multiple Readme): https://github.com/dotnet/core
+
+```notes
+Net core *
+```
+---
+## Projects
+#### What is project?
+##### *collection of code with dependency to provide a kind of function.    *
+#### What should be in the project?
+
+#### Types of projects?
+![Project type](.\images\project_type.png "Project type")    
+#### Project Target & Runtime Identifier(.NET)?
+##### Target: NetFramework/NetCore/[NetStandard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard "NetStandard")
+---
+## Project Samples
+![Newtonjson Project](.\images\newtonjson_project.png "Newtonjson Project")
+
+---
+- Purpose of .csproj file: 
+     Define dependency (requirement.txt in python, package.json in nodejs)
+- Purpose of .sln file:
+    1. Friendly to IDE
+    2. Describe the project
+
+---
+## Project Do & Don't
+### How to construct? 
+
 ---
 
-## Projects
-1. 
+## Takeaway
+#### 1. Create/Reuse library/project depends on requirement. 
+#### 2. Concept of interface   
+##### - Large scale system: Interface project for behaviour reusing.   
+##### - Standalone service: Interface & implement in same library/project.   
+#### 3. App is just a wrapper for interactive. 
+#### 4. Web is also a kind of Console -- Do more Self-host(Owin, Kestrel, Flask) 
+#### 5. Project as a service.
+#### 6. Jump out of the sln concept for .NET development
 
+```notes
+1. Util is a class should not become a project. Avoid fragment of projects.
+2. Focus on folder. solution is just for visualize the relationship. (Build setting)
+
+```
 ---
 
 ## Clean Environment
-
+1. Build environment 
+2. Package dependency 
+3. Resource file dependency
 
 ---
 
@@ -91,7 +135,7 @@ CLI: Key board access could be much more easier than click the mouse/switch betw
 ---
 
 ## Summary
-Use more vs when searching
+Use more 'vs' when searching
 
 ---
 
