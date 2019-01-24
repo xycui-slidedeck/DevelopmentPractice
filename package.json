@@ -4,9 +4,10 @@
   "description": "slide for Development practice",
   "main": "index.js",
   "dependencies": {
+  },
+  "devDependencies": {
     "mdx-deck": "^1.8.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "mdx-deck deck.mdx",

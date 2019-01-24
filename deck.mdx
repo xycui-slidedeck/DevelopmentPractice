@@ -57,28 +57,32 @@ Net core *
 ```
 ---
 ## Projects
-#### What is project?
-##### *collection of code with dependency to provide a kind of function.    *
-#### What should be in the project?
+### What is in project?   
 
-#### Types of projects?
+|Items|Note|
+|----|----|
+|**Source code**|-|
+|**Config/resource file**|Avoid put dependency like .dll/.jar except native|
+|**Dependency/Description file**|.csproj/.vcxproj in .NET, pom.xml/build.gradle in Java, |   
+<br/>   
+
+### Types of projects?
 ![Project type](.\images\project_type.png "Project type")    
-#### Project Target & Runtime Identifier(.NET)?
+### Project Target & Runtime Identifier(.NET)?
 ##### Target: NetFramework/NetCore/[NetStandard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard "NetStandard")
+
+```notes
+
+```
+---
+## Dealing with Project
+### How to construct? 
+
+
 ---
 ## Project Samples
 ![Newtonjson Project](.\images\newtonjson_project.png "Newtonjson Project")
 
----
-- Purpose of .csproj file: 
-     Define dependency (requirement.txt in python, package.json in nodejs)
-- Purpose of .sln file:
-    1. Friendly to IDE
-    2. Describe the project
-
----
-## Project Do & Don't
-### How to construct? 
 
 ---
 
@@ -100,9 +104,9 @@ Net core *
 ---
 
 ## Clean Environment
-1. Build environment 
-2. Package dependency 
-3. Resource file dependency
+1. Build environment - Docker
+2. Package dependency - NuGet.Config
+3. Resource file dependency - 
 
 ---
 
