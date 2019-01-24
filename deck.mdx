@@ -48,7 +48,7 @@ Part 3. Some other thinkings
 ```
 
 ---
-## Repository Sample
+
 ![Newtonjson](.\images\structure_newtonjson_note.png "Newtonjson") ![NetStandard](.\images\structure_netstandard.png "NetStandard")     
 ###### - NewtonJson: https://github.com/JamesNK/Newtonsoft.Json<br/>- Pyinstaller: https://github.com/pyinstaller/pyinstaller<br/>- NetCore(multiple Readme): https://github.com/dotnet/core
 
@@ -63,34 +63,48 @@ Net core *
 |----|----|
 |**Source code**|-|
 |**Config/resource file**|Avoid put dependency like .dll/.jar except native|
-|**Dependency/Description file**|.csproj/.vcxproj in .NET, pom.xml/build.gradle in Java, |   
+|**Dependency/Description file**|.csproj/.vcxproj *package.config* in .NET, pom.xml/build.gradle in Java, |   
 <br/>   
 
 ### Types of projects?
-![Project type](.\images\project_type.png "Project type")    
-### Project Target & Runtime Identifier(.NET)?
-##### Target: NetFramework/NetCore/[NetStandard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard "NetStandard")
+![Project type](.\images\project_type.png "Project type")![TtsSelfHost](.\images\tts-selfhost_structure.png "Tts SelfHost")![Mediaplatform](.\images\mediaplatform_structure.png "Mediaplatform")
 
 ```notes
 
 ```
 ---
-## Dealing with Project
-### How to construct? 
+## Practice on Project
+### How to construct?
+1. For large (extended) project create *Interface* Project. And also the 'Implement Project'(eg. MongoDB, XiaoIce).
+2. For 
 
+### Pakcage Reference?
+
+|Reference type|Pros|Cons|
+|----|---|---|
+|Project reference|Latest dependency change could be applyed<br/>Easy debug|Build dependency each time<br/>Extra large repo<br/>Even with git submodule<br/>Build break risk|
+|NuGet reference|Fast on build|Debug require aditional nupkg or pdb<br/>Cost on package publish|
 
 ---
-## Project Samples
-![Newtonjson Project](.\images\newtonjson_project.png "Newtonjson Project")
 
+## .NET Project
+### Net Core & Net Framework
+- Previous using Net framework(Heavy(dependency), Platform fixed(mono is a kind of trade off by third party))
+- .Net Core is platform. Open source. Nuget managed packages.
+- .Net Core also provide a new standard of project management(new csproj). And use PackageReference replace package.config. 
+- For Application(Runtime)
+- Not compatible between each other
+### Net Standard
+- **Library** standard(constraint). Not for runtime.
+- Could be referenced by Standard/Core/Framework with [condition](https://docs.microsoft.com/en-us/dotnet/standard/net-standard "Net standard")
 
 ---
 
 ## Takeaway
 #### 1. Create/Reuse library/project depends on requirement. 
-#### 2. Concept of interface   
+#### 2. Concept of interface! Concept of interface! Concept of interface!   
 ##### - Large scale system: Interface project for behaviour reusing.   
-##### - Standalone service: Interface & implement in same library/project.   
+##### - Standalone feature: Interface & implement in same library/project.   
 #### 3. App is just a wrapper for interactive. 
 #### 4. Web is also a kind of Console -- Do more Self-host(Owin, Kestrel, Flask) 
 #### 5. Project as a service.
@@ -140,6 +154,12 @@ CLI: Key board access could be much more easier than click the mouse/switch betw
 
 ## Summary
 Use more 'vs' when searching
+Mono vs Net Core
 
 ---
 
+|Concepts|Explain|Tools/Service|
+|----|---|----|
+|CI/CD| Continous Integration/Continous Delivery|Appveyor, VSTS(Cloud build), Travis,Circle|
+|Scaffolding|Structure of a project for languages|Yeoman|
+|Package management|Dependency managment|NuGet, npm, pip, scoop, chocolatey|
