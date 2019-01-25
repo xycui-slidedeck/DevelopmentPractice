@@ -3,16 +3,15 @@
   "version": "1.0.0",
   "description": "slide for Development practice",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "mdx-deck": "^1.8.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
-    "buildpdf": "mdx-deck pdf deck.mdx"
+    "build": "mdx-deck build images/deck.mdx",
+    "buildpdf": "mdx-deck pdf images/deck.mdx"
   },
   "repository": {
     "type": "git",

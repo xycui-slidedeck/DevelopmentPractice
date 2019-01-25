@@ -1,0 +1,14 @@
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\bin\Debug\netcoreapp2.0\ComputeLib.Web.deps.json
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\bin\Debug\netcoreapp2.0\ComputeLib.Web.runtimeconfig.json
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\bin\Debug\netcoreapp2.0\ComputeLib.Web.runtimeconfig.dev.json
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\bin\Debug\netcoreapp2.0\ComputeLib.Web.dll
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\bin\Debug\netcoreapp2.0\ComputeLib.Web.pdb
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\obj\Debug\netcoreapp2.0\ComputeLib.Web.csprojAssemblyReference.cache
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\obj\Debug\netcoreapp2.0\ComputeLib.Web.csproj.CoreCompileInputs.cache
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\obj\Debug\netcoreapp2.0\ComputeLib.Web.AssemblyInfoInputs.cache
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\obj\Debug\netcoreapp2.0\ComputeLib.Web.AssemblyInfo.cs
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\obj\Debug\netcoreapp2.0\ComputeLib.Web.dll
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\obj\Debug\netcoreapp2.0\ComputeLib.Web.pdb
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\bin\Debug\netcoreapp2.0\ComputeLib.dll
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\bin\Debug\netcoreapp2.0\ComputeLib.pdb
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.Web\obj\Debug\netcoreapp2.0\ComputeLib.Web.csproj.CopyComplete
