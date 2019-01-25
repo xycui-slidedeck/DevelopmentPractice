@@ -1,9 +1,0 @@
-C:\TechSharing\DevelopmentPractice\src1\ComputeLib\bin\Debug\netstandard2.0\ComputeLib.deps.json
-C:\TechSharing\DevelopmentPractice\src1\ComputeLib\bin\Debug\netstandard2.0\ComputeLib.dll
-C:\TechSharing\DevelopmentPractice\src1\ComputeLib\bin\Debug\netstandard2.0\ComputeLib.pdb
-C:\TechSharing\DevelopmentPractice\src1\ComputeLib\obj\Debug\netstandard2.0\ComputeLib.csprojAssemblyReference.cache
-C:\TechSharing\DevelopmentPractice\src1\ComputeLib\obj\Debug\netstandard2.0\ComputeLib.csproj.CoreCompileInputs.cache
-C:\TechSharing\DevelopmentPractice\src1\ComputeLib\obj\Debug\netstandard2.0\ComputeLib.AssemblyInfoInputs.cache
-C:\TechSharing\DevelopmentPractice\src1\ComputeLib\obj\Debug\netstandard2.0\ComputeLib.AssemblyInfo.cs
-C:\TechSharing\DevelopmentPractice\src1\ComputeLib\obj\Debug\netstandard2.0\ComputeLib.dll
-C:\TechSharing\DevelopmentPractice\src1\ComputeLib\obj\Debug\netstandard2.0\ComputeLib.pdb
