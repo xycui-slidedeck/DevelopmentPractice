@@ -92,7 +92,7 @@ Net core *
 ### Net Core & Net Framework
 - Previous using Net framework(Heavy(dependency), Platform fixed(mono is a kind of trade off by third party))
 - .Net Core is platform. Open source. Nuget managed packages.
-- .Net Core also provide a new standard of project management(new csproj). And use PackageReference replace package.config. 
+- .Net Core also provide a new standard of project management(new csproj). And use PackageReference replace package.config. (Compatible with old one)
 - For Application(Runtime)
 - Not compatible between each other
 ### Net Standard
@@ -149,18 +149,39 @@ CLI: Key board access could be much more easier than click the mouse/switch betw
 ```
 
 ---
-## NET Core vs NET Framework
+## Console vs Platform/Framework specific(web, worker)
+### Console:
+- Flexible in development & deployment
+- More and more library/framework support SelfHost/ConsoleHost (Owin, Kestrel)
+- Understand the detail better.
 
+### Platform/Framework specific
+- Provide a managed process on development. Avoid some mistake at beginning.
+- Hard to migrate(1. Worker role/Web role 2. .NET Web application binded to IIS)
+
+
+```notes
+Framework specific:
+learning cost ?
+```
 ---
 
 ## Summary
-Use more 'vs' when searching
-Mono vs Net Core
+- Focus more on folder structure not project/sln.
+- Cleaning environment & reusable module/library
+- Use more 'vs' when searching (Mono vs Net Core).
+- Try more command line tool.
 
 ---
+## Reference
+<br/>
 
 |Concepts|Explain|Tools/Service|
 |----|---|----|
 |CI/CD| Continous Integration/Continous Delivery|Appveyor, VSTS(Cloud build), Travis,Circle|
 |Scaffolding|Structure of a project for languages|Yeoman|
 |Package management|Dependency managment|NuGet, npm, pip, scoop, chocolatey|
+
+---
+
+# Thanks

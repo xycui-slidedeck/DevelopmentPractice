@@ -1,0 +1,14 @@
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\bin\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.deps.json
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\bin\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.runtimeconfig.json
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\bin\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.runtimeconfig.dev.json
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\bin\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.dll
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\bin\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.pdb
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\obj\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.csprojAssemblyReference.cache
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\obj\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.csproj.CoreCompileInputs.cache
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\obj\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.AssemblyInfoInputs.cache
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\obj\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.AssemblyInfo.cs
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\obj\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.dll
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\obj\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.pdb
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\bin\Debug\netcoreapp2.0\ComputeLib.dll
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\bin\Debug\netcoreapp2.0\ComputeLib.pdb
+C:\TechSharing\DevelopmentPractice\src1\ComputeLib.ConsoleHost\obj\Debug\netcoreapp2.0\ComputeLib.ConsoleHost.csproj.CopyComplete

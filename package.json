@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "slide for Development practice",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "mdx-deck": "^1.8.2"
   },
