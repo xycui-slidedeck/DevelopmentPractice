@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx"
+    "build": "mdx-deck build images/deck.mdx",
+    "buildpdf": "mdx-deck pdf images/deck.mdx"
   },
   "repository": {
     "type": "git",
