@@ -1,33 +1,23 @@
-export { swiss as theme } from 'mdx-deck/themes'
-
-## Methodology & Practice in (.NET) Development.
-Xianyi Cui
-
-```notes
-1. Maybe Guideline is a better name. But the scope is too large. 
-2. Some tips to avoid issue. Some tools & concept to introduce. Will not covered if xiaoice is not using. Will not envolve design patterns.
-3. From a different perspective to introduce
-```
+# Methodology & Practice in (.NET) Development
 
 ---
 
-## Content
-#### Part 1: Before coding    
-#### Part 2: Working on project     
-#### Part 3: Other thinking
-#### Summary
+# Content
+## Part 1: Before coding    
+## Part 2: Working on project     
+## Part 3: Other thinking
+## Summary
 
-```notes
-Part 1. Ignored in large project. Because they already finished these parts.
-Part 2. Dealing with actual project
+.notes: Part 1. Ignored in large project. Because they already finished these parts.
+Part 2. Dealing with actual project.
 Part 3. Some other thinkings
-```
----
-
-## Part 1: Before coding
 
 ---
-## *Code* Repository
+
+# Part 1: Before coding
+
+---
+# *Code* Repository
 ### What is the structure? 
 <br/>
 
@@ -50,15 +40,13 @@ Part 3. Some other thinkings
 ---
 
 ![Newtonjson](.\images\structure_newtonjson_note.png "Newtonjson") ![NetStandard](.\images\structure_netstandard.png "NetStandard")     
-- NewtonJson: https://github.com/JamesNK/Newtonsoft.Json
-- Pyinstaller: https://github.com/pyinstaller/pyinstaller
-- NetCore(multiple Readme): https://github.com/dotnet/core
+###### - NewtonJson: https://github.com/JamesNK/Newtonsoft.Json<br/>- Pyinstaller: https://github.com/pyinstaller/pyinstaller<br/>- NetCore(multiple Readme): https://github.com/dotnet/core
 
 ```notes
 Net core *
 ```
 ---
-## Projects
+# Projects
 ### What is in project?   
 
 |Items|Note|
@@ -75,7 +63,7 @@ Net core *
 
 ```
 ---
-## Practice on Project
+# Practice on Project
 ### How to construct?
 1. For large (extended) project. Create *Interface* Project. And also the 'Implement Project'(eg. [MongoDB CSharp Driver](https://github.com/mongodb/mongo-csharp-driver "MongoDB CSharp Driver"), [XiaoIce](https://msasg.visualstudio.com/Bing_STC-Asia/_git/XiaoIce?path=%2Fprivate%2Fsrc&version=GBmaster "XiaoIce")).
 2. For task specific project. Just create library project.([NewtonJson](https://github.com/JamesNK/Newtonsoft.Json "NewtonJson"))
@@ -90,7 +78,7 @@ Net core *
 
 ---
 
-## .NET Project
+# .NET Project
 ### Net Core & Net Framework
 - Previous using Net framework(Heavy(dependency), Platform fixed(mono is a kind of trade off by third party))
 - .Net Core is platform. Open source. Nuget managed packages.
@@ -103,7 +91,7 @@ Net core *
 
 ---
 
-## Takeaway
+# Takeaway
 #### 1. Create/Reuse library/project depends on requirement. 
 #### 2. Concept of interface! Concept of interface! Concept of interface!   
 ##### - Large scale system: Interface project for behaviour reusing.   
@@ -120,22 +108,22 @@ Net core *
 ```
 ---
 
-## Clean Environment
+# Clean Environment
 1. Build environment - DockerFile
 2. Package dependency - NuGet.Configs
 3. Resource file dependency - Relative path/Embedded resource/resx file
 
 ---
 
-## Part 2: Working on project
+# Part 2: Working on project
 
 ---
 
-## Part 3: Other thinking
+# Part 3: Other thinking
 
 ---
 
-## IDE vs CLI    
+# IDE vs CLI    
 <br/>   
 
 |Tools|Pros|Cons|
@@ -151,7 +139,7 @@ CLI: Key board access could be much more easier than click the mouse/switch betw
 ```
 
 ---
-## Console vs Platform/Framework specific(web, worker)
+# Console vs Platform/Framework specific(web, worker)
 ### Console:
 - Flexible in development & deployment
 - More and more library/framework support SelfHost/ConsoleHost (Owin, Kestrel)
@@ -168,14 +156,14 @@ learning cost ?
 ```
 ---
 
-## Summary
+# Summary
 - Focus more on folder structure not project/sln.
 - Cleaning environment & reusable module/library
 - Use more 'vs' when searching (Mono vs Net Core).
 - Try more command line tool.
 
 ---
-## Reference
+# Reference
 <br/>
 
 |Concepts|Explain|Tools/Service|
